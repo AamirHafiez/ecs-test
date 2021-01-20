@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+@import '../node_modules//bootstrap/dist/css/bootstrap.min.css';
+
+.pointer {
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font-xlarge {
+  font-size: 1.4rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.font-large {
+  font-size: 1.25rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.text-bold {
+  font-weight: bold;
+}
+.cart-icon-container{
+  position: relative;
+}
+.bg-light-gray{
+  background-color: hsl(0, 13%, 91%);
+}
+.bg-dark-blue{
+  background-color: #041E2F;
+}
+.cart-count{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background-color: yellow;
+  top: 0;
+  left: 40px;
+  border-radius: 50%;
+}
+.counter-btn{
+  background-color: whitesmoke;
+  height: 35px;
+  width: 35px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border-radius: 50%;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.book{
+  
 }
